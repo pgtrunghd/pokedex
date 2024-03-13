@@ -41,13 +41,13 @@ export const PokemonDetail = () => {
   if (!isDesktop) {
     return (
       <div className="bg-white text-center p-3 relative">
-        <div className="absolute left-0 right-0 top-[-120px] z-10">
+        {/* <div className="absolute left-0 right-0 bottom-[70vh] z-10">
           <img
             className="pixel-rendering object-contain m-auto w-80 max-h-[25vh]"
             src={dataPokemon?.sprites?.front_default}
             alt={dataPokemon?.name}
           />
-        </div>
+        </div> */}
         <div className="h-[70vh] max-w-[500px] mx-auto overflow-y-auto hide-scrollbar">
           {!loading ? (
             <>
