@@ -1,6 +1,5 @@
 import { useAppContext } from "@/contexts/app-context";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import React from "react";
 
 type TNavigation = {
   id: number | undefined;

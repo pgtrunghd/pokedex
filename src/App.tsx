@@ -1,5 +1,4 @@
 import "./App.css";
-import { Input } from "@/components/ui/input";
 import { PokemonList } from "./components/pokemon-list";
 import { useEffect } from "react";
 import { AppContextProvider } from "./contexts/app-context";
